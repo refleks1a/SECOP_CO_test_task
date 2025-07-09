@@ -18,9 +18,11 @@ class UserCreate(BaseModel):
             raise ValueError("Password must contain at least one special character (!@#$%^&*)")
         return v
 
+
 class UserLogin(BaseModel):
     username: str
     password: str
+
 
 class UserResponse(BaseModel):
     id: int
@@ -28,6 +30,7 @@ class UserResponse(BaseModel):
 
     class Config:
         orm_mode = True
+
 
 class Token(BaseModel):
     access_token: str

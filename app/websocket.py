@@ -11,6 +11,7 @@ COIN_SYMBOLS = {
     "ltc": "litecoin",
 }
 
+
 # Retrieve coin prices
 async def fetch_coin_price(symbol: str):
     coin_id = COIN_SYMBOLS.get(symbol.lower())
