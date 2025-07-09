@@ -1,13 +1,5 @@
     # Real-time Coin Data Tracking System
 
-This project is a FastAPI-based backend for real-time cryptocurrency price tracking using the CoinGecko API. Users can register, log in, and track coin prices via WebSocket.
-
-## Features
-
-- User registration and login (JWT-based authentication)
-- Real-time coin price tracking via WebSocket
-- Fetches prices from CoinGecko API
-
 ## Endpoints
 
 - `POST /register` – Register a new user
